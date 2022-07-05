@@ -24,12 +24,5 @@ This is the pre-processed data of the data measured by EEG. This is data classif
 1. positive_class_bands_chan2_all_subj.m
 2. negative_class_bands_chan2_all_subj.m
 
-## License
 
-This project is licensed under the NIMS License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
