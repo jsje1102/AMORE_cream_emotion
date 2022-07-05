@@ -1,16 +1,16 @@
 # AMORE_cream_emotion
-Deep learning method for classification for emotions
+Deep learning method for classification for emotions 
 # Project Title
 
-One Paragraph of project description goes here
+Emotion recognition while applying cosmetic cream using deep learning from EEG data; cross-subject analysis
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These files include the analysis code and preprocessed data presented in the paper "Emotion recognition while applying cosmetic cream using deep learning from EEG data; cross-subject analysis" submitted to the PLOS ONE journal.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+These codes were developed in the environment of MATLAB R2020b.
 
 ```
 Give examples
