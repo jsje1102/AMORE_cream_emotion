@@ -4,83 +4,29 @@ Deep learning method for classification for emotions
 
 Emotion recognition while applying cosmetic cream using deep learning from EEG data; cross-subject analysis
 
-## Getting Started
+## About project
 
 These files include the analysis code and preprocessed data presented in the paper "Emotion recognition while applying cosmetic cream using deep learning from EEG data; cross-subject analysis" submitted to the PLOS ONE journal.
 
-### Prerequisites
+### Code
 
 These codes were developed in the environment of MATLAB R2020b.
+The four CNN-based deep learning methods presented in the paper were created in the following four mlx files, respectively.
+1. Emotion_EEGlayout_stacked_band_all_test_no_dropout.mlx
+2. Emotion_EEGlayout_inception_all_test_3module_no_dropout.mlx
+3. Emotion_EEGlayout_each_band_all_test_no_dropout.mlx
+4. Emotion_EEGlayout_Multi_input_all_test_no_dropout.mlx
 
-```
-Give examples
-```
 
-### Installing
+### Data
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+This is the pre-processed data of the data measured by EEG. This is data classified for the following positive and negative emotions. Each data consists of 16 cells (16 subjects in total), and each cell contains EEG data of size 10x10x1x140. For detailed data information, please refer to the paper.
+1. positive_class_bands_chan2_all_subj.m
+2. negative_class_bands_chan2_all_subj.m
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the NIMS License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
